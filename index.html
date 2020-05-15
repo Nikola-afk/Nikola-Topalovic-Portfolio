@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chatset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikola Topalovic | Portfolio</title>
+    <link rel="schortcut icon" href="/img/asdasada.ico">
+    <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="nav.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="button.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="contact.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="scrollbar.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img {
+            opacity: 0.73;
+        }
+
+        img:hover {
+            opacity: 1.0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="myNav"><img class="navImg" src="https://salesmanunknown.github.io/img/undraw.svg"
+                style="float: left; width:40px;height:55px;">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#work">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero-image">
+        <div class="hero-text">
+
+            <h1 class="myName" style="opacity: 1">Nikola Topalovic</h1>
+            <h2 class="myJob">Front End Web Developer</h2>
+            <button id="myBtn">Hire me</button>
+            <p class="arrow">⮟</p>
+        </div>
+    </div>
+    <section class="par1">
+        <div class="div1">
+            <h1 id="about" style="font-size: 25px;">About me</h1>
+            <p class="p1"><img class="sideImg" src="https://salesmanunknown.github.io/img/undraw.svg"
+                    style="float: right; width:350px;height:350px;margin-left:15px;">
+                I am Front End Developer, using HTML,</br> CSS and JavaScript to create websites.</br>
+                Have started recently and everything that</br> I do is self taught.
+                I am always learning </br>and every day is important because there</br> is always something new
+                to be learned.</br> Altough I am a newbie in programming</br> I am okay with
+                what I achieved so far.</br> Learning programming is something that</br> I find quite
+                exciting but also tough at times,</br> but there are bugs to be found and fixed,</br> and I intend
+                to dedicate to it within my</br> lifespan. Through hard work and dedication</br> everything is
+                possible. <br>
+            <p class="p2">So if you need simple but beautiful and<br> responsive website for your bussines,<br>
+                organization or a blog, you should most<br> definitely contact me!</p>
+
+            </p>
+        </div>
+    </section>
+    <section class="par2">
+        <h1 class="myWork" id="work" style="font-size: 25px;">My Work</h1>
+
+    </section>
+    <section class="par3">
+        <h1 id="contact" class="cnt" style="font-size: 25px; color: white;">Contact me</h1>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname" style="color: white;">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+                <label for="lname" style="color: white;">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+
+                <label for="subject" style="color: white;">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Reason for contacting me..."
+                    style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </section>
+    <button onclick="topBtnFunction()" id="topBtn" title="Go to top">⮝</button>
+    <footer id="footer">
+        <p class="pFooter">© 2020 Author <abbr class="abbr" title="Nikola Topalovic">NT</abbr>
+
+            <img src="/img/w3certified_logo.png" alt="W3Schools Certified" width="100" height="50"
+                style="float: right; opacity: 1; padding-left: 15px;" />
+        <p>Check out my social media and ways to contact me</p>
+        <a target="_blank" href="https://twitter.com/nikolatopalovi4" class="fa fa-twitter"></a>
+        <a target="_blank" href="https://www.reddit.com/user/Anastari" class="fa fa-reddit"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCA7nc8gy1kCmLt2xvuGlWvA?view_as=subscriber"
+            class="fa fa-youtube"></a>
+        <a target="_blank" href="https://github.com/Nikola-afk"><i id="git" class="fa fa-github"
+                aria-hidden="true"></i></a>
+
+    </footer>
+    <script src="/topBtn.js"></script>
+
+</body>
+
+</html>
