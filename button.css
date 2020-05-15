@@ -1,0 +1,30 @@
+/*CSS za povratak na vrh dugme*/
+#myBtn {
+    display: inline-block;
+    text-shadow: 1px 1px 2px rgba(73,155,234,1);
+    text-align: center;
+    text-decoration: none;
+    border: solid 4px solid black;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: rgba(73,155,234,1);
+    margin-left: -50px;
+    
+  }
+  #myBtn:active {
+   transform: translateY(1px);
+   filter: saturate(150%);
+ }
+ #myBtn:hover {
+   
+   border-color: currentColor;
+   background-color: white;
+   cursor: pointer;
+   }
+ #myBtn:hover,
+ #myBtn:focus {
+   color: rgba(73,155,234,1);
+   border-color: currentColor;
+   background-color: white;
+ }

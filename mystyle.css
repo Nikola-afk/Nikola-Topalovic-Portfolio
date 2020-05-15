@@ -1,0 +1,187 @@
+/*CSS za ceo sajt*/
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin: 0;
+  
+  background-image: url("https://wallpaperplay.com/walls/full/7/8/e/13887.jpg");
+}
+.hero-image {
+  text-shadow: 1px 1px 5px rgba(73,155,234,1);
+  background: url("https://ignitecorp.com.au/public_html/clients/ignitecorp.com.au/wp-content/uploads/2018/12/bcvvvc.jpg") no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  border-bottom: 5px solid rgba(73,155,234,1);
+  border-top: 5px solid rgba(73,155,234,1);
+}
+.hero-text {
+  text-shadow: 1px 1px 5px rgba(73,155,234,1);
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+@keyframes example {
+0%   { down:80px; top:0px;}
+25%  { left:0px; top:0px;}
+50%  { down:0px; top:20px;}
+75%  { left:0px; top:20px;}
+100% {left:0px; top:0px;}
+}
+.arrow {
+margin-left: 195px;
+width: 100px;
+height: 100px;
+position: relative;
+    
+animation-name: example;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+.arrow:hover {
+    cursor: pointer;
+    color: rgba(73,155,234,1);
+}
+#about {
+font-size: 25px;
+margin-top: 100px;
+padding-left: 50px;
+color: white;
+border-bottom: 0.2px solid rgba(73,155,234,1);
+}
+.sideImg {
+  box-shadow: 0 6px 10px 0 rgba(73,155,234,1), 0 8px 25px 0 rgba(73,155,234,1);
+  transition: transform 1.5s;
+  padding-right: 0px;
+  margin-right: 100px;
+}
+.sideImg:hover  {
+  opacity: 0.5;
+  transform: rotate(360deg);
+}
+.par1 {
+  font-size: 21px;
+  text-shadow: 1px 1px 5px rgba(73,155,234,1);
+  transition: transform 1.5s ease;
+}
+.par1:hover {
+  transform: translateY(11px);
+}
+.p1 {
+  text-shadow: 1px 1px 2px rgba(73,155,234,1);
+  font-size: 18px;
+  padding-left: 50px;
+  color: white;
+  letter-spacing: 2px;
+}
+.p2 {
+  text-shadow: 1px 1px 2px rgba(73,155,234,1);
+  font-size: 18px;
+  padding-left: 50px;
+  color: white;
+  letter-spacing: 2px;
+}
+.myWork {
+  transition: transform 1.5s ease;
+  text-shadow: 1px 1px 5px rgba(73,155,234,1);
+  font-size: 25px;
+  margin-bottom: 500px;
+  margin-top: 200px;
+  padding-left: 50px;
+  color: white;
+  border-bottom: 0.2px solid rgba(73,155,234,1);
+}
+.myWork:hover {
+  transform: translateY(11px);
+}
+.par3 {
+  transition: transform 1.5s ease;
+}
+.par3:hover {
+  transform: translateY(8px);
+}
+.cnt {
+  text-shadow: 1px 1px 5px rgba(73,155,234,1);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  color: white;
+  border-bottom: 0.2px solid rgba(73,155,234,1);
+}
+#footer {
+  padding: 10px;
+  
+  color: white;
+  border-top: 5px solid rgba(73,155,234,1); 
+}
+.pFooter {
+  text-shadow: 1px 1px 3px rgba(73,155,234,1);
+  float: right;
+  padding-right: 12px;
+}
+p {
+  text-shadow: 1px 1px 3px rgba(73,155,234,1);
+}
+.fa {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+#git {
+  background:white;
+  color: black;
+}
+#topBtn {
+  position: relative; 
+  float: right;
+  bottom: 10px; 
+  right: 20px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgba(73,155,234,1); 
+  color: white; 
+  cursor: pointer; 
+  padding: 5px; 
+  border-radius: 5px; 
+  font-size: 18px;
+  animation-name: topBtn;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes topBtn {
+  from {top: -50px;}
+  to {top: -33px; }
+}
+#topBtn:hover {
+  background-color: white;
+  color:rgba(73,155,234,1);
+}

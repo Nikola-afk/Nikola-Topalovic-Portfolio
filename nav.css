@@ -1,0 +1,33 @@
+/*NavBar*/
+ul {
+  text-shadow: 1px 1px 10px rgba(73,155,234,1);
+  list-style-type: none;
+  margin: -5px;
+  padding: 0;
+  overflow: hidden;
+  position: top;
+  background-image: url("https://wallpaperplay.com/walls/full/7/8/e/13887.jpg");
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgba(73,155,234,1);
+  }
+  .active {
+    background: rgba(73,155,234,1);
+  }
+  .navImg {
+    background-image: url("https://wallpaperplay.com/walls/full/7/8/e/13887.jpg");
+  }
